@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    font-family: sans-serif;
+    background: lightblue;
+    color: white;
+    height: 50vh;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .card {
+    background: #666;
+    padding: 15px;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .card:hover {
+    background: red;
+  }
